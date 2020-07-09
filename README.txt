@@ -10,7 +10,7 @@ into the subfolder /src/f1tenth_gym_ros-master/scripts of your catkin workspace.
 (This direction was taken from the readme.md file in the particle_filter package)
 and copy the .csv file into the 'logs' folder.
 
-4. Start a docker container
+4. Build and start a docker container
 
 5. In a different terminal, catkin_make, source devel/setup.bash, and run:
     $roslaunch f1tenth_gym_ros lu_kinetic_version_1.launch
